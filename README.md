@@ -36,3 +36,6 @@ Una vez realizado esto, tienes dos opciones, o bien sales y vuelves a entrar en 
 ## LISTAR CONTENEDORES EN EJECUCIÓN SIN TRUNCADO DE LA INFORMACIÓN QUE SE LISTA.
 `$ docker ps --no-trunc`
 
+## EVITAR QUE ARCHIVOS QUE NO UTILIZAMOS SE AGREGUEN AL CONTEXTO DE DOCKERFILE
+Creamos un archivo oculto llamado .dockerignore y agregamos los nombres de los archivos o carpetas que queremos que no se agreguen al contexto de construcción del Dockerfile.<br>
+
